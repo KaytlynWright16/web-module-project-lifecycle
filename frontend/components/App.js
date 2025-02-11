@@ -71,7 +71,7 @@ export default class App extends React.Component {
         <TodoList 
           todos={this.state.todos}
           displayCompleted={this.state.displayCompleted}
-          toggleCompleted={this.state.toggleCompleted}
+          toggleCompleted={this.toggleCompleted}
         />
        <Form
         onTodoSubmit={this.onTodoSubmit}
